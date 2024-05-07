@@ -1,0 +1,107 @@
+@import './reset.css';
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 30px ;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    background-color: white;
+    padding: 20px 15px;
+}
+.header-nav img{
+    max-width: 75px;
+}
+.header-nav p{
+    font-size: 28px;
+}
+.header-content h1{
+    margin-top: 425px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*content*/
+.content{
+    margin-top: 30px;
+}
+.content-block{
+    display: flex;
+    column-gap: 25px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+.content-video video{
+    width: 600px;    
+}
+.content-info{
+    width: 400px;
+}
+.content-info p{
+    text-align: left;
+    font-size: 18px;
+    color: #222;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.content-info h2{
+    color: #222;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+footer{
+    margin-top: 40px;
+}
+.footer-icon{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-icon a{
+    max-width: 50px;
+    display: block;
+    transition: 0.3s linear;
+}
+.footer-icon a:hover{
+    transform: scale(1.2);
+}
+.footer-admin{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+
+    padding: 20px 0 20px 0;
+}
+.footer-admin img{
+    max-width: 50px;
+}
+.footer-admin p{
+    font-size: 18px;
+    color: #222;
+    font-weight: 500;
+    
+}
